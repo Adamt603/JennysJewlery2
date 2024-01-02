@@ -1,0 +1,100 @@
+/*<editor-fold desc="Default code">*/
+/*start of default code */
+
+/* Default font size */
+html {
+    /*This is the default font size set by the browser.*/
+    /*font-size: 16px;*/
+
+    font-size: 62.5%; /*This is .625 * 16 = 10px makes calculation of rem easier*/
+}
+
+/* Box sizing rules */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin */
+body, h1, h2, h3, h4, p, figure, blockquote, dl, dd {
+    margin: 0;
+}
+
+/* Removes the line under all lines in page */
+a {
+    text-decoration: none;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+/* Make images easier to work with */
+img, picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 96vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+
+    font-family: caecilia-sans-text,-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+    /* Default font size of the body is now 16px */
+    font-size: 1.6rem;
+}
+
+/*end of default code */
+/*</editor-fold>*/
+
+:root {
+    --buttonColor: #4a4a4a;
+    --whiteText: #ffffff;
+}
+
+/*<editor-fold desc="Typography">*/
+/* Typography */
+
+h2 {
+    font-size: 2.8rem;
+}
+/*</editor-fold>*/
+
+/*<editor-fold desc="Buttons">*/
+/* Buttons */
+.button {
+    font-size: 1.5rem;
+    text-align: center;
+    white-space: nowrap;
+    border: 0;
+    padding: .9rem 3rem 1.1rem 3rem;
+    font-family: inherit;
+}
+
+.button__uppercase {
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.button__gray {
+    background: var(--buttonColor);
+    color: var(--whiteText);
+    border: .1rem solid var(--buttonColor);
+}
+
+.button__gray:hover {
+    background: var(--whiteText);;
+    color: var(--buttonColor);
+}
+/*</editor-fold>*/
+
+/*Big cards*/
+
+
+
+
+
